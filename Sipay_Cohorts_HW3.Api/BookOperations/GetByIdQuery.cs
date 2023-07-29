@@ -18,7 +18,7 @@ namespace Sipay_Cohorts_HW3.Api.BookOperations
 
             BooksViewModel vm = new BooksViewModel();
             vm.Title = book.Title;
-            vm.Genre=book.GenreId.ToString(); 
+            vm.Genre=((Genre)book.GenreId).ToString(); 
             vm.PageCount = book.PageCount;
             vm.PublishDate = book.PublishDate.Date.ToString("dd/MM/yyy");
             return vm;

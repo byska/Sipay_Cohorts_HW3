@@ -47,7 +47,6 @@ namespace Sipay_Cohorts_HW3.Api.Controllers
             }
             catch (Exception ex)
             {
-
                 return BadRequest(ex.Message);
             }
             return RedirectToAction("GetByID", new {id=id});

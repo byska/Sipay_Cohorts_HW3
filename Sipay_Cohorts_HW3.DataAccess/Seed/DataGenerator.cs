@@ -20,7 +20,7 @@ namespace Sipay_Cohorts_HW3.DataAccess.Seed
                 {
                     Id = 1,
                     Title = "Lean Startup",
-                    GenreId = Genre.ScienceFiction,
+                    GenreId = 1,
                     PageCount = 250,
                     PublishDate = new DateTime(2001, 10, 12)
 
@@ -29,7 +29,7 @@ namespace Sipay_Cohorts_HW3.DataAccess.Seed
                 {
                     Id = 2,
                     Title = "Herland",
-                    GenreId = Genre.PersonalGrowth,
+                    GenreId = 1,
                     PageCount = 250,
                     PublishDate = new DateTime(2011, 05, 12)
                 },
@@ -37,7 +37,7 @@ namespace Sipay_Cohorts_HW3.DataAccess.Seed
                  {
                      Id = 3,
                      Title = "Dune",
-                     GenreId = Genre.ScienceFiction,
+                     GenreId = 2,
                      PageCount = 540,
                      PublishDate = new DateTime(2001, 12, 12)
                  }
